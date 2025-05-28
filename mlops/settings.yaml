@@ -1,5 +1,47 @@
+emr_config: null
+features:
+  override: false
+features_defined:
+  add_new_block_v2: true
+  command_center: true
+  compute_management: false
+  custom_design: true
+  data_integration_in_batch_pipeline: true
+  dbt_v2: true
+  display_local_timezone: true
+  global_hooks: true
+  interactions: true
+  notebook_block_output_split_view: true
+  operation_history: true
+  polars: true
+features_override: {}
+help_improve_mage: true
+latest_version: 0.9.76
+name: unit_1_data_preparation
+openai_api_key: null
+pipelines: null
+platform_settings:
+  projects:
+    homework3:
+      path: homework3
+    unit_0_setup: {}
+    unit_1_data_preparation: {}
+    unit_2_training: {}
+    unit_3_observability: {}
+project_uuid: 6bc94c12fe8f446daebc1abf4944c7bc
 projects:
+  homework3:
+    path: homework3
   unit_0_setup: {}
   unit_1_data_preparation: {}
   unit_2_training: {}
   unit_3_observability: {}
+remote_variables_dir: null
+repo_path: /workspaces/mage-ai/mlops/unit_1_data_preparation
+root_project: false
+settings:
+  active: false
+  uuid: unit_1_data_preparation
+spark_config: null
+version: 0.9.76
+workspace_config_defaults: {}

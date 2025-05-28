@@ -1,0 +1,14 @@
+train:
+  object_type: pipeline
+  object_uuid: sklearn
+  project: unit_1_data_preparation
+  repo_path: /workspaces/mage-ai/mlops/unit_1_data_preparation
+train_set:
+  object_type: pipeline
+  object_uuid: data_preparation
+  outdated_after:
+    seconds: 600
+  project: unit_1_data_preparation
+  repo_path: /workspaces/mage-ai/mlops/unit_1_data_preparation
+  settings:
+    build: {}
